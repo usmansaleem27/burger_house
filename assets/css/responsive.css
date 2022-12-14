@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1400px) and (min-width: 992px){
+    #bg_navbar{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1024px) and (min-width:750px){
+    #bg_navbar .home_page_brand{
+        font-size: 120px;
+        font-weight: 700;    
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 576px){
+    #bg_navbar .home_page_brand{
+        font-size: 80px;
+        font-weight: 900;    
+    }
+}
+
+@media only screen and (max-width: 422px){
+    #bg_navbar .good_taste span{
+        display: none;
+    }
+}

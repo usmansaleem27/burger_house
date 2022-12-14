@@ -1,0 +1,73 @@
+/* Font Family Here  */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+#bg_navbar {
+    background-image: linear-gradient(to right, #f8bd4f, #f1b91ff8);
+}
+
+#bg_navbar .topbar_brand {
+    color: var(--brown);
+
+}
+
+#bg_navbar .delivery_first i {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--brown);
+}
+
+#bg_navbar .delivery_first p,
+#bg_navbar .delivery_first a {
+    padding-left: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    color: var(--brown);
+
+}
+
+#bg_navbar .navbar_items_links {
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--brown);
+    transition: 0.2s ease-in-out;
+}
+
+#bg_navbar .navbar_items_links:hover {
+    transform: scale(1.1)
+}
+
+#bg_navbar .good_taste span {
+    border: 2px dashed var(--brown);
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: var(--brown);
+}
+
+#bg_navbar .home_page_brand {
+    font-size: 150px;
+    font-weight: 900;
+    color: var(--brown);
+
+}
+
+#bg_navbar .home_page_brand_time {
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--brown);
+}
