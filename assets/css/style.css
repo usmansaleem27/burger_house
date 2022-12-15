@@ -3,6 +3,7 @@
 2. Advertisement Cards
 3. Tasty Burger Section
 4. Upcoming Events Section
+5. Reservation Section
 
 ****************************************************************************************/
 
@@ -88,6 +89,7 @@ body {
 }
 
 
+
 /************************************ 2. Advertisement Cards here ********************************/
 
 
@@ -156,4 +158,35 @@ body {
 #icon_color_grey {
     color: var(--gray);
     cursor: pointer;
+}
+
+/*************************************** 5. Reservation Section Here  ***********************************/
+
+
+#reservation .reservation_text span{
+    color: var(--brown);
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+#reservation .booking_text span{
+    color: var(--brown);
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+
+#reservation input{
+    width: 100%;
+}
+
+#reservation button{
+    background-color: var(--red);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 800;
+    box-shadow: 2px 9px 9px -1px var(--gray);
+}
+#reservation input{
+    border: 1px solid var(--gray);
+    box-shadow: 2px 9px 9px -1px var(--gray);
 }
