@@ -190,3 +190,16 @@ body {
     border: 1px solid var(--gray);
     box-shadow: 2px 9px 9px -1px var(--gray);
 }
+
+
+#burger_house_footer .footer_card_image{
+    background-image: url(../images/footer_image.jpg);
+    background-size: cover;
+}
+
+#burger_house_footer .footer_icons i{
+    cursor: pointer;
+}
+#burger_house_footer .footer_icons i:hover{
+    transform: scale(1.1);
+}
