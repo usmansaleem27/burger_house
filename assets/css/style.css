@@ -89,3 +89,30 @@ body {
     left: 16px;
     color: white;
 }
+
+#tasty_burger .tasty_burger_button span{
+    background-color: var(--yellow);
+    font-size: 1.6rem;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#tasty_burger .choose_burger_text span{
+    color: var(--brown);
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+#tasty_burger .order_cards .first_card{
+    border: 1px solid var(--gray);
+    border-radius: 5px;
+}
+#tasty_burger button{
+    color: white;
+    background-color: var(--red);
+    transition: 0.3s ease-in-out;
+}
+
+#tasty_burger button:hover{
+    transform: scale(1.1);
+}
