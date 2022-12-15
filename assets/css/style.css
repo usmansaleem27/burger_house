@@ -4,6 +4,7 @@
 3. Tasty Burger Section
 4. Upcoming Events Section
 5. Reservation Section
+6. Footer
 
 ****************************************************************************************/
 
@@ -190,6 +191,11 @@ body {
     border: 1px solid var(--gray);
     box-shadow: 2px 9px 9px -1px var(--gray);
 }
+
+
+
+/*************************************** 6. Footer Section Here  ***********************************/
+
 
 
 #burger_house_footer .footer_card_image{
