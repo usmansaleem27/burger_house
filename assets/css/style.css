@@ -71,3 +71,21 @@ body {
     font-weight: 700;
     color: var(--brown);
 }
+
+#advertisement_card .first_image{
+    position: relative;
+}
+
+#advertisement_card .advertise_cards{
+    background-image: linear-gradient(#0F2027, #203A43, #2C5364);
+}
+
+#advertisement_card .card{
+    background-image: linear-gradient(to right, rgb(49, 48, 48) , #130707);
+}
+#advertisement_card .advertise_card_text{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: white;
+}
