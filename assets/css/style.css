@@ -1,3 +1,16 @@
+/******************************* Table Of Contents  ************************************
+1. Navbar 
+2. Advertisement Cards
+3. Tasty Burger Section
+4. Upcoming Events Section
+
+****************************************************************************************/
+
+
+
+
+
+
 /* Font Family Here  */
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
@@ -11,6 +24,8 @@ body {
     box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
 }
+
+/************************************ 1. Navbar Here ********************************/
 
 #bg_navbar {
     background-image: linear-gradient(to right, #f8bd4f, #f1b91ff8);
@@ -72,47 +87,73 @@ body {
     color: var(--brown);
 }
 
-#advertisement_card .first_image{
+
+/************************************ 2. Advertisement Cards here ********************************/
+
+
+#advertisement_card .first_image {
     position: relative;
 }
 
-#advertisement_card .advertise_cards{
+#advertisement_card .advertise_cards {
     background-image: linear-gradient(#0F2027, #203A43, #2C5364);
 }
 
-#advertisement_card .card{
-    background-image: linear-gradient(to right, rgb(49, 48, 48) , #130707);
+#advertisement_card .card {
+    background-image: linear-gradient(to right, rgb(49, 48, 48), #130707);
 }
-#advertisement_card .advertise_card_text{
+
+#advertisement_card .advertise_card_text {
     position: absolute;
     top: 8px;
     left: 16px;
     color: white;
 }
 
-#tasty_burger .tasty_burger_button span{
+/************************************ 3. Tasty Burger Section here ********************************/
+
+
+#tasty_burger .tasty_burger_button span {
     background-color: var(--yellow);
     font-size: 1.6rem;
     padding-left: 8px;
     padding-right: 8px;
 }
 
-#tasty_burger .choose_burger_text span{
+#tasty_burger .choose_burger_text span {
     color: var(--brown);
     font-size: 3.5rem;
     font-weight: 900;
 }
 
-#tasty_burger .order_cards .first_card{
+#tasty_burger .order_cards .first_card {
     border: 1px solid var(--gray);
     border-radius: 5px;
 }
-#tasty_burger button{
+
+#tasty_burger button {
     color: white;
     background-color: var(--red);
     transition: 0.3s ease-in-out;
 }
 
-#tasty_burger button:hover{
+#tasty_burger button:hover {
     transform: scale(1.1);
+}
+
+/************************************ 4. Upcoming Events Section here ********************************/
+
+
+#upcoming_events .shadow_container {
+    box-shadow: 10px 15px 17px 0px black;
+}
+
+#icon_color_yellow {
+    color: var(--yellow);
+    cursor: pointer;
+}
+
+#icon_color_grey {
+    color: var(--gray);
+    cursor: pointer;
 }
